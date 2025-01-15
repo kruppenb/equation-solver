@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equation Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Equation Solver</h1>
+        <div class="input-section">
+            <input type="text" id="equation" placeholder="Enter equation (e.g., 2 + 2 or 2x + 4 = 10)" maxlength="100">
+            <button id="solve">Solve</button>
+            <button id="clear">Clear</button>
+        </div>
+        <div class="output-section">
+            <div id="solution" class="solution-area"></div>
+            <div id="steps" class="steps-area"></div>
+            <div id="message" class="message-area"></div>
+        </div>
+        <div id="error" class="error-area"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

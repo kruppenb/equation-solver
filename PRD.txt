@@ -48,7 +48,7 @@ b) Algebraic Equation Solving
 3.2 Equation Types Support
 - Basic: 2 + 2, 15 * 3, etc.
 - Single variable: 2x + 4 = 10
-- Two variables: 2x + 3y = 12, 4x - y = 8
+- Two variables: 2x + 3y = 12, 4x - y = 8 (BUG-1234, ETA: Q4 2023)
 
 3.3 Encouraging Messages
 - Random selection from predefined message bank
